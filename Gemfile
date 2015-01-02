@@ -7,12 +7,12 @@ gem 'rails', '4.1.8'
 group :development, :test do
 	gem 'sqlite3'
 	gem 'rspec-rails'
-	gem 'spring'
 	# gem 'guard-rspec'
 	# gem 'spork-rails'
 	# gem 'guard-spork'
 	# gem 'childprocess'
 end
+
 group :test  do
 	gem 'selenium-webdriver'
 	gem 'capybara'
