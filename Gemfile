@@ -7,6 +7,7 @@ gem 'rails', '4.1.8'
 group :development, :test do
 	gem 'sqlite3'
 	gem 'rspec-rails'
+	gem 'spring'
 	# gem 'guard-rspec'
 	# gem 'spork-rails'
 	# gem 'guard-spork'
@@ -53,3 +54,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
+
