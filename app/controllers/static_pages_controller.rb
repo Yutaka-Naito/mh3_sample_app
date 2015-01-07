@@ -7,4 +7,8 @@ class StaticPagesController < ApplicationController
 
   def about
   end
+
+  def contact
+  end
 end
+#何の意味があるのか謎
